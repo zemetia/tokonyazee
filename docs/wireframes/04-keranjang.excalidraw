@@ -1,0 +1,59 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "hermes-agent",
+  "elements": [
+    {"type": "rectangle", "id": "phone", "x": 40, "y": 20, "width": 360, "height": 720, "roundness": {"type": 3}, "backgroundColor": "#ffffff", "fillStyle": "solid", "strokeColor": "#d1d5db", "strokeWidth": 2},
+    {"type": "rectangle", "id": "navbar", "x": 40, "y": 48, "width": 360, "height": 48, "backgroundColor": "#f59e0b", "fillStyle": "solid", "strokeColor": "transparent",
+      "boundElements": [{"id": "nav-back", "type": "text"}, {"id": "nav-title", "type": "text"}]},
+    {"type": "text", "id": "nav-back", "x": 55, "y": 58, "width": 40, "height": 20, "text": "←", "fontSize": 18, "fontFamily": 1, "strokeColor": "#ffffff", "containerId": "navbar", "originalText": "←", "autoResize": true},
+    {"type": "text", "id": "nav-title", "x": 130, "y": 58, "width": 180, "height": 22, "text": "Keranjang", "fontSize": 18, "fontFamily": 1, "strokeColor": "#ffffff", "textAlign": "center", "containerId": "navbar", "originalText": "Keranjang", "autoResize": true},
+
+    {"type": "text", "id": "cart-count", "x": 55, "y": 110, "width": 150, "height": 18, "text": "2 item di keranjang", "fontSize": 14, "fontFamily": 1, "strokeColor": "#78716c", "originalText": "2 item di keranjang", "autoResize": true},
+
+    {"type": "rectangle", "id": "item-1", "x": 45, "y": 140, "width": 350, "height": 100, "roundness": {"type": 3}, "backgroundColor": "#ffffff", "fillStyle": "solid", "strokeColor": "#e5e7eb"},
+    {"type": "rectangle", "id": "item-1-img", "x": 55, "y": 150, "width": 70, "height": 70, "roundness": {"type": 2}, "backgroundColor": "#fef3c7", "fillStyle": "solid", "strokeColor": "transparent",
+      "boundElements": [{"id": "item-1-img-txt", "type": "text"}]},
+    {"type": "text", "id": "item-1-img-txt", "x": 65, "y": 175, "width": 50, "height": 24, "text": "Madu\nHutan", "fontSize": 11, "fontFamily": 1, "strokeColor": "#d97706", "textAlign": "center", "containerId": "item-1-img", "originalText": "Madu\nHutan", "autoResize": true},
+    {"type": "text", "id": "item-1-name", "x": 140, "y": 150, "width": 180, "height": 20, "text": "Madu Hutan Liar", "fontSize": 15, "fontFamily": 1, "strokeColor": "#1e1e1e", "originalText": "Madu Hutan Liar", "autoResize": true},
+    {"type": "text", "id": "item-1-weight", "x": 140, "y": 172, "width": 60, "height": 16, "text": "500ml", "fontSize": 12, "fontFamily": 1, "strokeColor": "#78716c", "originalText": "500ml", "autoResize": true},
+    {"type": "text", "id": "item-1-price", "x": 140, "y": 195, "width": 100, "height": 20, "text": "Rp 85.000", "fontSize": 15, "fontFamily": 1, "strokeColor": "#d97706", "originalText": "Rp 85.000", "autoResize": true},
+    {"type": "rectangle", "id": "item-1-qty", "x": 290, "y": 170, "width": 90, "height": 32, "roundness": {"type": 3}, "backgroundColor": "#f8fafc", "fillStyle": "solid", "strokeColor": "#e5e7eb",
+      "boundElements": [{"id": "item-1-qty-txt", "type": "text"}]},
+    {"type": "text", "id": "item-1-qty-txt", "x": 295, "y": 176, "width": 80, "height": 20, "text": "−  1  +", "fontSize": 15, "fontFamily": 1, "strokeColor": "#1e1e1e", "textAlign": "center", "containerId": "item-1-qty", "originalText": "−  1  +", "autoResize": true},
+    {"type": "text", "id": "item-1-del", "x": 370, "y": 150, "width": 18, "height": 18, "text": "×", "fontSize": 16, "fontFamily": 1, "strokeColor": "#ef4444", "originalText": "×", "autoResize": true},
+
+    {"type": "rectangle", "id": "item-2", "x": 45, "y": 250, "width": 350, "height": 100, "roundness": {"type": 3}, "backgroundColor": "#ffffff", "fillStyle": "solid", "strokeColor": "#e5e7eb"},
+    {"type": "rectangle", "id": "item-2-img", "x": 55, "y": 260, "width": 70, "height": 70, "roundness": {"type": 2}, "backgroundColor": "#fef3c7", "fillStyle": "solid", "strokeColor": "transparent",
+      "boundElements": [{"id": "item-2-img-txt", "type": "text"}]},
+    {"type": "text", "id": "item-2-img-txt", "x": 62, "y": 285, "width": 56, "height": 24, "text": "Madu\nRandu", "fontSize": 11, "fontFamily": 1, "strokeColor": "#d97706", "textAlign": "center", "containerId": "item-2-img", "originalText": "Madu\nRandu", "autoResize": true},
+    {"type": "text", "id": "item-2-name", "x": 140, "y": 260, "width": 180, "height": 20, "text": "Madu Randu Organik", "fontSize": 15, "fontFamily": 1, "strokeColor": "#1e1e1e", "originalText": "Madu Randu Organik", "autoResize": true},
+    {"type": "text", "id": "item-2-weight", "x": 140, "y": 282, "width": 60, "height": 16, "text": "500ml", "fontSize": 12, "fontFamily": 1, "strokeColor": "#78716c", "originalText": "500ml", "autoResize": true},
+    {"type": "text", "id": "item-2-price", "x": 140, "y": 305, "width": 100, "height": 20, "text": "Rp 55.000", "fontSize": 15, "fontFamily": 1, "strokeColor": "#d97706", "originalText": "Rp 55.000", "autoResize": true},
+    {"type": "rectangle", "id": "item-2-qty", "x": 290, "y": 280, "width": 90, "height": 32, "roundness": {"type": 3}, "backgroundColor": "#f8fafc", "fillStyle": "solid", "strokeColor": "#e5e7eb",
+      "boundElements": [{"id": "item-2-qty-txt", "type": "text"}]},
+    {"type": "text", "id": "item-2-qty-txt", "x": 295, "y": 285, "width": 80, "height": 20, "text": "−  2  +", "fontSize": 15, "fontFamily": 1, "strokeColor": "#1e1e1e", "textAlign": "center", "containerId": "item-2-qty", "originalText": "−  2  +", "autoResize": true},
+    {"type": "text", "id": "item-2-del", "x": 370, "y": 260, "width": 18, "height": 18, "text": "×", "fontSize": 16, "fontFamily": 1, "strokeColor": "#ef4444", "originalText": "×", "autoResize": true},
+
+    {"type": "rectangle", "id": "summary-bg", "x": 40, "y": 370, "width": 360, "height": 180, "backgroundColor": "#f8fafc", "fillStyle": "solid", "strokeColor": "transparent"},
+    {"type": "text", "id": "summary-title", "x": 55, "y": 380, "width": 150, "height": 20, "text": "Ringkasan Belanja", "fontSize": 16, "fontFamily": 1, "strokeColor": "#1e1e1e", "originalText": "Ringkasan Belanja", "autoResize": true},
+
+    {"type": "text", "id": "subtotal-label", "x": 55, "y": 412, "width": 80, "height": 18, "text": "Subtotal", "fontSize": 14, "fontFamily": 1, "strokeColor": "#78716c", "originalText": "Subtotal", "autoResize": true},
+    {"type": "text", "id": "subtotal-val", "x": 280, "y": 412, "width": 100, "height": 18, "text": "Rp 195.000", "fontSize": 14, "fontFamily": 1, "strokeColor": "#1e1e1e", "textAlign": "right", "originalText": "Rp 195.000", "autoResize": true},
+
+    {"type": "text", "id": "ongkir-label", "x": 55, "y": 438, "width": 80, "height": 18, "text": "Ongkos Kirim", "fontSize": 14, "fontFamily": 1, "strokeColor": "#78716c", "originalText": "Ongkos Kirim", "autoResize": true},
+    {"type": "text", "id": "ongkir-val", "x": 280, "y": 438, "width": 100, "height": 18, "text": "Dihitung saat\ncheckout", "fontSize": 12, "fontFamily": 1, "strokeColor": "#78716c", "textAlign": "right", "originalText": "Dihitung saat checkout", "autoResize": true},
+
+    {"type": "rectangle", "id": "divider", "x": 55, "y": 465, "width": 330, "height": 1, "backgroundColor": "#e5e7eb", "fillStyle": "solid", "strokeColor": "transparent"},
+
+    {"type": "text", "id": "total-label", "x": 55, "y": 478, "width": 60, "height": 24, "text": "Total", "fontSize": 18, "fontFamily": 1, "strokeColor": "#1e1e1e", "originalText": "Total", "autoResize": true},
+    {"type": "text", "id": "total-val", "x": 230, "y": 478, "width": 150, "height": 24, "text": "Rp 195.000", "fontSize": 20, "fontFamily": 1, "strokeColor": "#d97706", "textAlign": "right", "originalText": "Rp 195.000", "autoResize": true},
+
+    {"type": "rectangle", "id": "btn-checkout", "x": 55, "y": 560, "width": 330, "height": 52, "roundness": {"type": 3}, "backgroundColor": "#d97706", "fillStyle": "solid", "strokeColor": "transparent",
+      "boundElements": [{"id": "btn-checkout-txt", "type": "text"}]},
+    {"type": "text", "id": "btn-checkout-txt", "x": 100, "y": 574, "width": 240, "height": 24, "text": "Pesan via WhatsApp 💬", "fontSize": 18, "fontFamily": 1, "strokeColor": "#ffffff", "textAlign": "center", "containerId": "btn-checkout", "originalText": "Pesan via WhatsApp 💬", "autoResize": true},
+
+    {"type": "text", "id": "continue", "x": 130, "y": 622, "width": 180, "height": 18, "text": "← Lanjut Belanja", "fontSize": 14, "fontFamily": 1, "strokeColor": "#d97706", "textAlign": "center", "originalText": "← Lanjut Belanja", "autoResize": true}
+  ],
+  "appState": {"viewBackgroundColor": "#f5f5f5"}
+}

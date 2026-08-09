@@ -1,0 +1,46 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "hermes-agent",
+  "elements": [
+    {"type": "rectangle", "id": "phone", "x": 40, "y": 20, "width": 360, "height": 720, "roundness": {"type": 3}, "backgroundColor": "#ffffff", "fillStyle": "solid", "strokeColor": "#d1d5db", "strokeWidth": 2},
+    {"type": "rectangle", "id": "navbar", "x": 40, "y": 48, "width": 360, "height": 48, "backgroundColor": "#f59e0b", "fillStyle": "solid", "strokeColor": "transparent",
+      "boundElements": [{"id": "nav-back", "type": "text"}, {"id": "nav-cart", "type": "text"}]},
+    {"type": "text", "id": "nav-back", "x": 55, "y": 58, "width": 40, "height": 20, "text": "←", "fontSize": 18, "fontFamily": 1, "strokeColor": "#ffffff", "containerId": "navbar", "originalText": "←", "autoResize": true},
+    {"type": "text", "id": "nav-cart", "x": 320, "y": 58, "width": 60, "height": 20, "text": "🛒 2", "fontSize": 16, "fontFamily": 1, "strokeColor": "#ffffff", "containerId": "navbar", "originalText": "🛒 2", "autoResize": true},
+
+    {"type": "rectangle", "id": "hero-img", "x": 40, "y": 96, "width": 360, "height": 220, "backgroundColor": "#fef3c7", "fillStyle": "solid", "strokeColor": "transparent",
+      "boundElements": [{"id": "hero-placeholder", "type": "text"}]},
+    {"type": "text", "id": "hero-placeholder", "x": 120, "y": 180, "width": 160, "height": 60, "text": "Foto Produk\n(High Res)", "fontSize": 18, "fontFamily": 1, "strokeColor": "#d97706", "textAlign": "center", "containerId": "hero-img", "originalText": "Foto Produk\n(High Res)", "autoResize": true},
+    {"type": "rectangle", "id": "badge-featured", "x": 55, "y": 108, "width": 65, "height": 20, "roundness": {"type": 3}, "backgroundColor": "#f59e0b", "fillStyle": "solid", "strokeColor": "transparent",
+      "boundElements": [{"id": "badge-featured-txt", "type": "text"}]},
+    {"type": "text", "id": "badge-featured-txt", "x": 58, "y": 111, "width": 59, "height": 14, "text": "Unggulan", "fontSize": 11, "fontFamily": 1, "strokeColor": "#ffffff", "textAlign": "center", "containerId": "badge-featured", "originalText": "Unggulan", "autoResize": true},
+
+    {"type": "text", "id": "prod-name", "x": 55, "y": 330, "width": 280, "height": 28, "text": "Madu Hutan Liar", "fontSize": 24, "fontFamily": 1, "strokeColor": "#1e1e1e", "originalText": "Madu Hutan Liar", "autoResize": true},
+    {"type": "text", "id": "prod-price", "x": 55, "y": 360, "width": 150, "height": 28, "text": "Rp 85.000", "fontSize": 24, "fontFamily": 1, "strokeColor": "#d97706", "originalText": "Rp 85.000", "autoResize": true},
+
+    {"type": "rectangle", "id": "info-box", "x": 55, "y": 398, "width": 330, "height": 55, "roundness": {"type": 3}, "backgroundColor": "#fef3c7", "fillStyle": "solid", "strokeColor": "transparent"},
+    {"type": "text", "id": "info-weight", "x": 70, "y": 405, "width": 80, "height": 18, "text": "Berat: 500ml", "fontSize": 13, "fontFamily": 1, "strokeColor": "#1e1e1e", "originalText": "Berat: 500ml", "autoResize": true},
+    {"type": "text", "id": "info-stock", "x": 70, "y": 425, "width": 80, "height": 18, "text": "Stok: 25", "fontSize": 13, "fontFamily": 1, "strokeColor": "#78716c", "originalText": "Stok: 25", "autoResize": true},
+    {"type": "text", "id": "info-ship", "x": 200, "y": 405, "width": 150, "height": 18, "text": "🚚 Siap Kirim", "fontSize": 13, "fontFamily": 1, "strokeColor": "#1e1e1e", "originalText": "🚚 Siap Kirim", "autoResize": true},
+
+    {"type": "text", "id": "desc-title", "x": 55, "y": 468, "width": 100, "height": 20, "text": "Deskripsi", "fontSize": 16, "fontFamily": 1, "strokeColor": "#1e1e1e", "originalText": "Deskripsi", "autoResize": true},
+    {"type": "text", "id": "desc-body", "x": 55, "y": 492, "width": 330, "height": 54, "text": "Madu hutan asli dari lebah Apis\ndorsata, dikumpulkan dari hutan\ntropis Indonesia. Rasa kuat & khas.", "fontSize": 13, "fontFamily": 1, "strokeColor": "#78716c", "originalText": "Madu hutan asli dari lebah Apis\ndorsata, dikumpulkan dari hutan\ntropis Indonesia. Rasa kuat & khas.", "autoResize": true},
+
+    {"type": "rectangle", "id": "qty-section", "x": 55, "y": 558, "width": 330, "height": 44, "roundness": {"type": 3}, "backgroundColor": "#f8fafc", "fillStyle": "solid", "strokeColor": "#e5e7eb",
+      "boundElements": [{"id": "qty-label", "type": "text"}, {"id": "qty-minus", "type": "text"}, {"id": "qty-num", "type": "text"}, {"id": "qty-plus", "type": "text"}]},
+    {"type": "text", "id": "qty-label", "x": 70, "y": 569, "width": 60, "height": 18, "text": "Jumlah:", "fontSize": 14, "fontFamily": 1, "strokeColor": "#1e1e1e", "containerId": "qty-section", "originalText": "Jumlah:", "autoResize": true},
+    {"type": "text", "id": "qty-minus", "x": 240, "y": 569, "width": 20, "height": 18, "text": "−", "fontSize": 18, "fontFamily": 1, "strokeColor": "#d97706", "containerId": "qty-section", "originalText": "−", "autoResize": true},
+    {"type": "text", "id": "qty-num", "x": 275, "y": 569, "width": 20, "height": 18, "text": "1", "fontSize": 18, "fontFamily": 1, "strokeColor": "#1e1e1e", "containerId": "qty-section", "originalText": "1", "autoResize": true},
+    {"type": "text", "id": "qty-plus", "x": 315, "y": 569, "width": 20, "height": 18, "text": "+", "fontSize": 18, "fontFamily": 1, "strokeColor": "#d97706", "containerId": "qty-section", "originalText": "+", "autoResize": true},
+
+    {"type": "rectangle", "id": "btn-cart", "x": 55, "y": 618, "width": 220, "height": 48, "roundness": {"type": 3}, "backgroundColor": "#d97706", "fillStyle": "solid", "strokeColor": "transparent",
+      "boundElements": [{"id": "btn-cart-txt", "type": "text"}]},
+    {"type": "text", "id": "btn-cart-txt", "x": 70, "y": 630, "width": 190, "height": 24, "text": "+ Keranjang — Rp 85.000", "fontSize": 16, "fontFamily": 1, "strokeColor": "#ffffff", "textAlign": "center", "containerId": "btn-cart", "originalText": "+ Keranjang — Rp 85.000", "autoResize": true},
+
+    {"type": "rectangle", "id": "btn-buy", "x": 285, "y": 618, "width": 100, "height": 48, "roundness": {"type": 3}, "backgroundColor": "#ffffff", "fillStyle": "solid", "strokeColor": "#d97706",
+      "boundElements": [{"id": "btn-buy-txt", "type": "text"}]},
+    {"type": "text", "id": "btn-buy-txt", "x": 295, "y": 630, "width": 80, "height": 24, "text": "Beli ⚡", "fontSize": 16, "fontFamily": 1, "strokeColor": "#d97706", "textAlign": "center", "containerId": "btn-buy", "originalText": "Beli ⚡", "autoResize": true}
+  ],
+  "appState": {"viewBackgroundColor": "#f5f5f5"}
+}

@@ -1,0 +1,192 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "hermes-agent",
+  "elements": [
+    {
+      "type": "rectangle", "id": "phone-frame", "x": 40, "y": 20, "width": 360, "height": 720,
+      "roundness": {"type": 3}, "backgroundColor": "#ffffff", "fillStyle": "solid",
+      "strokeColor": "#d1d5db", "strokeWidth": 2
+    },
+    {
+      "type": "rectangle", "id": "status-bar", "x": 40, "y": 20, "width": 360, "height": 28,
+      "backgroundColor": "#f8fafc", "fillStyle": "solid", "strokeColor": "transparent"
+    },
+    {
+      "type": "rectangle", "id": "navbar", "x": 40, "y": 48, "width": 360, "height": 52,
+      "backgroundColor": "#f59e0b", "fillStyle": "solid", "strokeColor": "transparent",
+      "boundElements": [{"id": "nav-logo", "type": "text"}, {"id": "nav-cart", "type": "text"}]
+    },
+    {
+      "type": "text", "id": "nav-logo", "x": 60, "y": 58, "width": 120, "height": 24,
+      "text": "🍯 TokonyaZee", "fontSize": 18, "fontFamily": 1, "strokeColor": "#ffffff",
+      "textAlign": "left", "verticalAlign": "middle",
+      "containerId": "navbar", "originalText": "🍯 TokonyaZee", "autoResize": true
+    },
+    {
+      "type": "text", "id": "nav-cart", "x": 310, "y": 58, "width": 60, "height": 24,
+      "text": "🛒 0", "fontSize": 16, "fontFamily": 1, "strokeColor": "#ffffff",
+      "textAlign": "right", "verticalAlign": "middle",
+      "containerId": "navbar", "originalText": "🛒 0", "autoResize": true
+    },
+    {
+      "type": "rectangle", "id": "hero-bg", "x": 40, "y": 100, "width": 360, "height": 200,
+      "backgroundColor": "#fef3c7", "fillStyle": "solid", "strokeColor": "transparent"
+    },
+    {
+      "type": "text", "id": "hero-tag", "x": 70, "y": 115, "width": 200, "height": 20,
+      "text": "🐝 100% Madu Alami", "fontSize": 14, "fontFamily": 1, "strokeColor": "#d97706",
+      "originalText": "🐝 100% Madu Alami", "autoResize": true
+    },
+    {
+      "type": "text", "id": "hero-title", "x": 65, "y": 145, "width": 310, "height": 56,
+      "text": "Manisnya Madu Asli\ndari Alam Indonesia", "fontSize": 24, "fontFamily": 1, "strokeColor": "#1e1e1e",
+      "originalText": "Manisnya Madu Asli\ndari Alam Indonesia", "autoResize": true
+    },
+    {
+      "type": "text", "id": "hero-sub", "x": 70, "y": 210, "width": 300, "height": 36,
+      "text": "Madu hutan, klengkeng, randu &\nmultiflora — langsung dari peternak", "fontSize": 14, "fontFamily": 1, "strokeColor": "#78716c",
+      "originalText": "Madu hutan, klengkeng, randu &\nmultiflora — langsung dari peternak", "autoResize": true
+    },
+    {
+      "type": "rectangle", "id": "hero-cta", "x": 70, "y": 255, "width": 140, "height": 36,
+      "roundness": {"type": 3}, "backgroundColor": "#d97706", "fillStyle": "solid", "strokeColor": "transparent",
+      "boundElements": [{"id": "hero-cta-text", "type": "text"}]
+    },
+    {
+      "type": "text", "id": "hero-cta-text", "x": 75, "y": 261, "width": 130, "height": 24,
+      "text": "Belanja Sekarang", "fontSize": 14, "fontFamily": 1, "strokeColor": "#ffffff",
+      "textAlign": "center", "verticalAlign": "middle",
+      "containerId": "hero-cta", "originalText": "Belanja Sekarang", "autoResize": true
+    },
+    {
+      "type": "text", "id": "section-produk", "x": 65, "y": 320, "width": 200, "height": 24,
+      "text": "Produk Unggulan", "fontSize": 20, "fontFamily": 1, "strokeColor": "#1e1e1e",
+      "originalText": "Produk Unggulan", "autoResize": true
+    },
+    {
+      "type": "text", "id": "section-sub", "x": 65, "y": 342, "width": 250, "height": 18,
+      "text": "Madu pilihan terbaik dari TokonyaZee", "fontSize": 13, "fontFamily": 1, "strokeColor": "#78716c",
+      "originalText": "Madu pilihan terbaik dari TokonyaZee", "autoResize": true
+    },
+    {
+      "type": "rectangle", "id": "card-1", "x": 55, "y": 370, "width": 155, "height": 210,
+      "roundness": {"type": 3}, "backgroundColor": "#ffffff", "fillStyle": "solid",
+      "strokeColor": "#e5e7eb", "strokeWidth": 1
+    },
+    {
+      "type": "rectangle", "id": "card-1-img", "x": 55, "y": 370, "width": 155, "height": 100,
+      "backgroundColor": "#fef3c7", "fillStyle": "solid", "strokeColor": "transparent",
+      "boundElements": [{"id": "card-1-img-text", "type": "text"}]
+    },
+    {
+      "type": "text", "id": "card-1-img-text", "x": 75, "y": 405, "width": 115, "height": 30,
+      "text": "Madu\nHutan Liar", "fontSize": 14, "fontFamily": 1, "strokeColor": "#d97706",
+      "textAlign": "center", "verticalAlign": "middle",
+      "containerId": "card-1-img", "originalText": "Madu\nHutan Liar", "autoResize": true
+    },
+    {
+      "type": "rectangle", "id": "card-1-badge", "x": 62, "y": 376, "width": 50, "height": 18,
+      "roundness": {"type": 3}, "backgroundColor": "#f59e0b", "fillStyle": "solid", "strokeColor": "transparent",
+      "boundElements": [{"id": "card-1-badge-text", "type": "text"}]
+    },
+    {
+      "type": "text", "id": "card-1-badge-text", "x": 65, "y": 378, "width": 44, "height": 14,
+      "text": "500ml", "fontSize": 11, "fontFamily": 1, "strokeColor": "#ffffff",
+      "textAlign": "center", "verticalAlign": "middle",
+      "containerId": "card-1-badge", "originalText": "500ml", "autoResize": true
+    },
+    {
+      "type": "text", "id": "card-1-price", "x": 65, "y": 478, "width": 100, "height": 20,
+      "text": "Rp 85.000", "fontSize": 16, "fontFamily": 1, "strokeColor": "#d97706",
+      "originalText": "Rp 85.000", "autoResize": true
+    },
+    {
+      "type": "text", "id": "card-1-stock", "x": 120, "y": 478, "width": 80, "height": 20,
+      "text": "Stok: 25", "fontSize": 12, "fontFamily": 1, "strokeColor": "#78716c",
+      "originalText": "Stok: 25", "autoResize": true
+    },
+    {
+      "type": "rectangle", "id": "card-1-btn", "x": 65, "y": 505, "width": 135, "height": 32,
+      "roundness": {"type": 3}, "backgroundColor": "#d97706", "fillStyle": "solid", "strokeColor": "transparent",
+      "boundElements": [{"id": "card-1-btn-text", "type": "text"}]
+    },
+    {
+      "type": "text", "id": "card-1-btn-text", "x": 70, "y": 510, "width": 125, "height": 22,
+      "text": "+ Keranjang", "fontSize": 13, "fontFamily": 1, "strokeColor": "#ffffff",
+      "textAlign": "center", "verticalAlign": "middle",
+      "containerId": "card-1-btn", "originalText": "+ Keranjang", "autoResize": true
+    },
+    {
+      "type": "rectangle", "id": "card-2", "x": 220, "y": 370, "width": 155, "height": 210,
+      "roundness": {"type": 3}, "backgroundColor": "#ffffff", "fillStyle": "solid",
+      "strokeColor": "#e5e7eb", "strokeWidth": 1
+    },
+    {
+      "type": "rectangle", "id": "card-2-img", "x": 220, "y": 370, "width": 155, "height": 100,
+      "backgroundColor": "#fef3c7", "fillStyle": "solid", "strokeColor": "transparent",
+      "boundElements": [{"id": "card-2-img-text", "type": "text"}]
+    },
+    {
+      "type": "text", "id": "card-2-img-text", "x": 240, "y": 405, "width": 115, "height": 30,
+      "text": "Madu\nKlengkeng", "fontSize": 14, "fontFamily": 1, "strokeColor": "#d97706",
+      "textAlign": "center", "verticalAlign": "middle",
+      "containerId": "card-2-img", "originalText": "Madu\nKlengkeng", "autoResize": true
+    },
+    {
+      "type": "text", "id": "card-2-price", "x": 230, "y": 478, "width": 100, "height": 20,
+      "text": "Rp 65.000", "fontSize": 16, "fontFamily": 1, "strokeColor": "#d97706",
+      "originalText": "Rp 65.000", "autoResize": true
+    },
+    {
+      "type": "rectangle", "id": "card-2-btn", "x": 230, "y": 505, "width": 135, "height": 32,
+      "roundness": {"type": 3}, "backgroundColor": "#d97706", "fillStyle": "solid", "strokeColor": "transparent",
+      "boundElements": [{"id": "card-2-btn-text", "type": "text"}]
+    },
+    {
+      "type": "text", "id": "card-2-btn-text", "x": 235, "y": 510, "width": 125, "height": 22,
+      "text": "+ Keranjang", "fontSize": 13, "fontFamily": 1, "strokeColor": "#ffffff",
+      "textAlign": "center", "verticalAlign": "middle",
+      "containerId": "card-2-btn", "originalText": "+ Keranjang", "autoResize": true
+    },
+    {
+      "type": "text", "id": "features-title", "x": 65, "y": 600, "width": 200, "height": 20,
+      "text": "Kenapa TokonyaZee?", "fontSize": 16, "fontFamily": 1, "strokeColor": "#1e1e1e",
+      "originalText": "Kenapa TokonyaZee?", "autoResize": true
+    },
+    {
+      "type": "rectangle", "id": "feat-1", "x": 55, "y": 628, "width": 100, "height": 60,
+      "roundness": {"type": 3}, "backgroundColor": "#fef3c7", "fillStyle": "solid", "strokeColor": "transparent",
+      "boundElements": [{"id": "feat-1-text", "type": "text"}]
+    },
+    {
+      "type": "text", "id": "feat-1-text", "x": 62, "y": 640, "width": 86, "height": 36,
+      "text": "🐝\n100% Alami", "fontSize": 13, "fontFamily": 1, "strokeColor": "#1e1e1e",
+      "textAlign": "center", "verticalAlign": "middle",
+      "containerId": "feat-1", "originalText": "🐝\n100% Alami", "autoResize": true
+    },
+    {
+      "type": "rectangle", "id": "feat-2", "x": 165, "y": 628, "width": 100, "height": 60,
+      "roundness": {"type": 3}, "backgroundColor": "#fef3c7", "fillStyle": "solid", "strokeColor": "transparent",
+      "boundElements": [{"id": "feat-2-text", "type": "text"}]
+    },
+    {
+      "type": "text", "id": "feat-2-text", "x": 172, "y": 640, "width": 86, "height": 36,
+      "text": "🏡\nPeternak\nLokal", "fontSize": 13, "fontFamily": 1, "strokeColor": "#1e1e1e",
+      "textAlign": "center", "verticalAlign": "middle",
+      "containerId": "feat-2", "originalText": "🏡\nPeternak\nLokal", "autoResize": true
+    },
+    {
+      "type": "rectangle", "id": "feat-3", "x": 275, "y": 628, "width": 100, "height": 60,
+      "roundness": {"type": 3}, "backgroundColor": "#fef3c7", "fillStyle": "solid", "strokeColor": "transparent",
+      "boundElements": [{"id": "feat-3-text", "type": "text"}]
+    },
+    {
+      "type": "text", "id": "feat-3-text", "x": 282, "y": 640, "width": 86, "height": 36,
+      "text": "🚚\nFast\nDelivery", "fontSize": 13, "fontFamily": 1, "strokeColor": "#1e1e1e",
+      "textAlign": "center", "verticalAlign": "middle",
+      "containerId": "feat-3", "originalText": "🚚\nFast\nDelivery", "autoResize": true
+    }
+  ],
+  "appState": {"viewBackgroundColor": "#f5f5f5"}
+}
